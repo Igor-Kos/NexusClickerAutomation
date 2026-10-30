@@ -24,15 +24,15 @@ HOW TO USE IT
 1. Download NexusClicker.zip. NexusClicker-Full.zip is the same app plus the source code, you don't need it.
 2. Right-click the zip, choose Extract All, and extract it into a folder of its own, for example C:\NexusClicker. Avoid Program Files: the app saves files next to itself.
 3. Open that folder and run NexusClicker.exe. If Windows says "Windows protected your PC", click More info, then Run anyway.
-4. Choose your language and your default browser.
-5. Add the extension to that browser. The app shows the steps and opens the right page for you:
-   - Chrome, Edge, Yandex Browser: turn on Developer mode, click Load unpacked, select the browser_extension folder next to the app.
-   - Firefox: click Load Temporary Add-on and select manifest.json in the firefox_extension folder. Firefox forgets it on restart, so repeat this step after each restart.
+4. Choose your language and your browser. Your default browser is already selected.
+5. The app opens your browser's extensions page. Add the extension from the extension folder next to the app:
+   - Chrome, Edge, Yandex Browser: turn on Developer mode, click Load unpacked, select the extension folder.
+   - Firefox: click Load Temporary Add-on and select manifest.json in the extension folder. If Firefox opens a Nexus Clicker tab, click Allow. Firefox forgets the add-on on restart, so repeat this step after each restart.
    Tick the box to confirm and continue.
-6. Open Vortex. If the app asks you to, click Restart Vortex and confirm.
+6. Click Start Vortex. If Vortex is already open, click Restart Vortex and confirm: it closes and reopens in a mode that lets the app see its buttons.
 7. Click Start, then start downloading your collection in Vortex. Leave both open until it's done.
 
-Next time, just open the app and click through. It remembers your choices.
+Next time, open the app and go through the same steps. It remembers your choices.
 
 
 OPTIONAL: STOP VORTEX POPPING UP
@@ -68,15 +68,15 @@ Nexus Clicker сам нажимает кнопки загрузки, пока Vo
 1. Скачайте NexusClicker.zip. В NexusClicker-Full.zip та же программа плюс исходный код, обычному пользователю он не нужен.
 2. Нажмите на архив правой кнопкой мыши, выберите «Извлечь все» и распакуйте его в отдельную папку, например C:\NexusClicker. Не используйте Program Files: программа сохраняет файлы рядом с собой.
 3. Откройте эту папку и запустите NexusClicker.exe. Если появится окно «Система Windows защитила ваш компьютер», нажмите «Подробнее», затем «Выполнить в любом случае».
-4. Выберите язык и свой браузер по умолчанию.
-5. Добавьте расширение в этот браузер. Программа покажет шаги и сама откроет нужную страницу:
-   - Chrome, Edge, Яндекс Браузер: включите «Режим разработчика», нажмите «Загрузить распакованное расширение» и выберите папку browser_extension рядом с программой.
-   - Firefox: нажмите «Загрузить временное дополнение» и выберите файл manifest.json в папке firefox_extension. После перезапуска Firefox расширение пропадает, поэтому этот шаг нужно повторять.
+4. Выберите язык и браузер. Браузер по умолчанию уже выбран.
+5. Программа откроет страницу расширений вашего браузера. Добавьте расширение из папки extension рядом с программой:
+   - Chrome, Edge, Яндекс Браузер: включите «Режим разработчика», нажмите «Загрузить распакованное расширение» и выберите папку extension.
+   - Firefox: нажмите «Загрузить временное дополнение» и выберите файл manifest.json в папке extension. Если Firefox откроет вкладку Nexus Clicker, нажмите «Allow / Разрешить». После перезапуска Firefox дополнение пропадает, поэтому этот шаг нужно повторять.
    Поставьте галочку и нажмите «Продолжить».
-6. Откройте Vortex. Если программа попросит, нажмите «Перезапустить Vortex» и подтвердите.
+6. Нажмите «Запустить Vortex». Если Vortex уже открыт, нажмите «Перезапустить Vortex» и подтвердите: он закроется и откроется снова в режиме, в котором программа видит его кнопки.
 7. Нажмите «Запустить» и начните загрузку коллекции в Vortex. Не закрывайте обе программы до конца загрузки.
 
-В следующий раз просто откройте программу и пройдите шаги: она запоминает ваш выбор.
+В следующий раз откройте программу и пройдите те же шаги: она запоминает ваш выбор.
 
 
 ПО ЖЕЛАНИЮ: ЧТОБЫ VORTEX НЕ ВСПЛЫВАЛ
