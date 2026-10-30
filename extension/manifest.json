@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "Nexus Clicker",
+  "version": "1.0.0",
+  "description": "Clicks Slow download on Nexus Mods mod pages opened by Vortex, then closes the tab.",
+  "permissions": [
+    "tabs",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://www.nexusmods.com/*/mods/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.nexusmods.com/*/mods/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "all_frames": true,
+      "run_at": "document_idle"
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "nexus-clicker@nexusclicker",
+      "strict_min_version": "121.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.spec
+/release/
+*.log
+.env
+.env.*
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+settings.json
+last-item.txt
+successful-actions.txt
